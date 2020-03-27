@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'
+import './globals.css'
 
 function App() {
   return (
     <div className="App">
-      First commit
+      teste
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

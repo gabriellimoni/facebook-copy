@@ -3,6 +3,9 @@ import './styles.css'
 
 import { FaFacebookF } from 'react-icons/fa'
 
+import MiddleHeader from './MiddleHeader'
+import RightHeader from './RightHeader'
+
 export default function Header() {
     return (
         <header className="header-container">
@@ -12,11 +15,11 @@ export default function Header() {
             </section>
 
             <section>
-                Middle
+                <MiddleHeader />
             </section>
 
             <section>
-                Right
+                <RightHeader />
             </section>
         </header>
     )

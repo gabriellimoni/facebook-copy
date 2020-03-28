@@ -1,0 +1,31 @@
+.middle-header-tab-container {
+    height: 60px;
+    padding: 0 5px;
+}
+
+.middle-header-tab-container,
+.middle-header-tab-container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-header-tab-container.active {
+    border-bottom: 3px solid #2D88FF;
+    color: #2D88FF;
+}
+
+.middle-header-tab-container p {
+    border-radius: 10px;
+    width: 90px;
+    height: 50px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.middle-header-tab-container:not(.active) p:hover {
+    background: #3A3B3C;
+}
+.middle-header-tab-container:not(.active) p:active {
+    background: rgb(84, 85, 87);
+}

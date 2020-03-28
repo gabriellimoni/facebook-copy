@@ -1,0 +1,48 @@
+.right-header-item-my-account {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 33px;
+    margin: 0 5px 0 0;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+    border-radius: 41px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.right-header-item-my-account img {
+    height: 28px;
+    padding-left: 3px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.right-header-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 5px;
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #3A3B3C;
+    transition: background 0.2s;
+}
+
+.right-header-item:hover {
+    background: rgb(81, 82, 83);
+}
+.right-header-item-my-account:hover {
+    background: #3A3B3C;
+}
+.right-header-item:active,
+.right-header-item-my-account:active {
+    background: rgb(51, 53, 53);
+}

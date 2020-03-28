@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import './styles.css'
 import { FaPlus, FaFacebookMessenger, FaBell, FaChevronDown } from 'react-icons/fa'

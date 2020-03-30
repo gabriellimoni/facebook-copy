@@ -21,7 +21,7 @@ export default function MiddleHeader() {
                 </p>
             </div>
             {Object.keys(items).map(item => (
-                <div className="right-header-item">
+                <div key={item} className="right-header-item">
                     {items[item]}
                 </div>
             ))}

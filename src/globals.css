@@ -22,3 +22,40 @@ input {
     border-radius: 20px;
     padding: 0 13px;
 }
+
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 60px;
+
+    color: #E4E6EB;
+}
+
+.content-container .left-sidebar {
+    height: calc(100vh - 60px);
+    width: 300px;
+    top: 0;
+    left: 0;
+}
+.content-container .right-sidebar {
+    height: calc(100vh - 60px);
+    width: 300px;
+    top: 0;
+    right: 0;
+}
+.content-container .center-content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    min-height: calc(100vh - 60px);
+}
+
+.center-content section {
+    width: 50%;
+}

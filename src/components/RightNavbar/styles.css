@@ -1,0 +1,72 @@
+.right-advertising-contaiener {
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+    transition: all 0.1s;
+}
+.right-advertising-contaiener:hover {
+    background:  rgb(67, 69, 70);
+}
+.right-advertising-contaiener h1 {
+    font-size: 18px;
+    color: #9A9CA1;
+}
+
+.right-advertising-contaiener header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+.right-advertising-contaiener header h2 {
+    font-size: 15px;
+}
+.right-advertising-contaiener header img {
+    height: 40px;
+    padding-right: 15px;
+}
+.right-advertising-contaiener section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.right-advertising-contaiener section img {
+    width: 80%;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.right-sidebar-list {
+    padding: 20px 15px;
+}
+
+.right-sidebar-list li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    list-style-type: none;
+
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+    padding: 12px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+
+    transition: background 0.1s;
+}
+
+.right-sidebar-list li:hover {
+    background: #3A3B3C;
+}
+.right-sidebar-list li:active {
+    background: rgb(67, 69, 70);
+}
+
+.right-sidebar-list li svg {
+    margin-right: 13px;
+}

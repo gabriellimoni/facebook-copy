@@ -3,6 +3,7 @@ import './globals.css'
 
 import Header from './components/Header'
 import LeftNavbarItems from './components/LeftNavbarItems'
+import RightNavbar from './components/RightNavbar'
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
 
         <div className="right-sidebar">
           <section>
-
+            <RightNavbar />
           </section>
         </div>
 

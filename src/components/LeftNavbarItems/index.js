@@ -51,7 +51,7 @@ export default function LeftNavbarItems() {
     }
 
     return (
-        <ul className="right-sidebar-list">
+        <ul className="left-sidebar-list">
             {Object.keys(items).map(item => (
                 <li key={item}>
                     {items[item]}

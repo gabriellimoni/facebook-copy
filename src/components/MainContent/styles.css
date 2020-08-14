@@ -1,0 +1,11 @@
+.main-content {
+    width: 100%;
+}
+
+.main-content > section {
+    width: inherit;
+    padding: 15px;
+    margin: 10px 0;
+    background: #242526;
+    border-radius: 8px;;
+}

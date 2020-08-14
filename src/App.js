@@ -4,6 +4,7 @@ import './globals.css'
 import Header from './components/Header'
 import LeftNavbarItems from './components/LeftNavbarItems'
 import RightNavbar from './components/RightNavbar'
+import MainContent from './components/MainContent'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
 
         <div className="center-content">
           <section>
-            Center content
+            <MainContent />
           </section>
         </div>
 
